@@ -1,0 +1,13 @@
+# Build output
+.build/
+dist/
+dfcore/target/
+driver/build/
+*.xcuserdata
+.DS_Store
+
+# Eval: generated mixtures and personal recordings. `eval/make_voices.sh` recreates
+# the inputs; make_and_score.py / dog_test.py recreate the rest. Only eval/audio/dog is tracked.
+eval/audio/*
+!eval/audio/dog/
+__pycache__/

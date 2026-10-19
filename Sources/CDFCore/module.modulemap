@@ -1,0 +1,5 @@
+module CDFCore {
+    header "dfcore.h"
+    link "dfcore"
+    export *
+}
